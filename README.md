@@ -28,20 +28,15 @@ is checked against evidence. A person always holds the launch key.
 
 <table>
   <tr>
-    <td width="33%" align="center" valign="top">
-      <a href="https://github.com/ethany14/Eregion-Job-Finding-Agent"><img src="assets/patch-eregion.svg" width="170" alt="Eregion mission patch"></a>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/ethany14/Eregion-Job-Finding-Agent"><img src="assets/patch-eregion.svg" width="190" alt="Eregion mission patch: AI career copilot"></a>
       <h3><a href="https://github.com/ethany14/Eregion-Job-Finding-Agent">Eregion</a></h3>
       <sub><b>AI CAREER COPILOT</b> · 2026 →</sub>
     </td>
-    <td width="33%" align="center" valign="top">
-      <a href="https://github.com/ethany14/Cs2-Roundcrafter"><img src="assets/patch-roundcrafter.svg" width="170" alt="RoundCrafter mission patch"></a>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/ethany14/Cs2-Roundcrafter"><img src="assets/patch-roundcrafter.svg" width="190" alt="RoundCrafter mission patch: CS2 analysis agent"></a>
       <h3><a href="https://github.com/ethany14/Cs2-Roundcrafter">RoundCrafter</a></h3>
       <sub><b>CS2 ANALYSIS AGENT</b> · 2026 →</sub>
-    </td>
-    <td width="33%" align="center" valign="top">
-      <a href="https://github.com/ethany14/ManifoldLLm"><img src="assets/patch-manifold.svg" width="170" alt="Manifold mission patch"></a>
-      <h3><a href="https://github.com/ethany14/ManifoldLLm">ManifoldLLm</a></h3>
-      <sub><b>AWAKENING AI MIND</b> · CORNELL</sub>
     </td>
   </tr>
   <tr>
@@ -67,17 +62,6 @@ is checked against evidence. A person always holds the launch key.
       <br><br>
       <code>PyTorch</code> <code>Hybrid RAG</code> <code>Node.js</code> <code>SQLite</code>
     </td>
-    <td valign="top">
-      Cornell research on modeling and evaluating personality. A masked neural encoder–decoder learns compact
-      representations from 300-item questionnaires and predicts from partial answers.
-      <br><br>
-      <b>TELEMETRY</b>
-      <br>▸ <b>20,479</b> IPIP response records
-      <br>▸ <b>8D / 16D / 32D</b> models, three training seeds each, on fixed splits
-      <br>▸ <b>−2.9%</b> hidden-item RMSE at 16D vs 8D
-      <br><br>
-      <code>Python</code> <code>Representation learning</code> <code>Evals</code>
-    </td>
   </tr>
 </table>
 
@@ -91,7 +75,6 @@ is checked against evidence. A person always holds the launch key.
 
 | T-STAMP | STATION | ROLE | LOG ENTRY |
 | :-- | :-- | :-- | :-- |
-| `2026 → NOW` | **Cornell University** | Research · Awakening AI Mind | Personality modeling and evaluation with a masked encoder–decoder on 20,479 IPIP records |
 | `2026 → NOW` | **Selected projects** | Builder | Eregion and RoundCrafter: agents, RAG, browser automation, evals |
 | `2022` | **VNET Group** · Beijing | AI Infrastructure Data Analyst Intern | Python and SQL datasets on data-center markets in Thailand, Singapore and Malaysia; Tableau dashboards comparing capacity, power efficiency, latency and pricing |
 
