@@ -75,7 +75,7 @@ class Face:
         opts.flavor = "woff"
         opts.layout_features = ["kern"]
         opts.name_IDs = ["*"]
-        font = TTFont(self.path)
+        font = TTFont(self.path, recalcTimestamp=False)   # identical bytes on every build
         sub = subset.Subsetter(opts)
         sub.populate(text="".join(sorted(chars)))
         sub.subset(font)

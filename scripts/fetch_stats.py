@@ -69,7 +69,8 @@ def main():
     except Exception as exc:
         print(f"contributions: {exc}", file=sys.stderr)
 
-    stats["generated_at"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    # Date only, so hourly runs commit when a number changes or a new day starts, not every hour.
+    stats["generated_at"] = now.strftime("%Y-%m-%d")
     DATA.parent.mkdir(parents=True, exist_ok=True)
     DATA.write_text(json.dumps(stats, indent=2, sort_keys=True) + "\n")
     print(json.dumps(stats, indent=2, sort_keys=True))
